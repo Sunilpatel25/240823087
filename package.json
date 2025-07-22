@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/Sunilpatel25/240823087/issues"
   },
-  "homepage": "https://github.com/Sunilpatel25/240823087#readme"
+  "homepage": "https://github.com/Sunilpatel25/240823087#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "lodas": "^1.2.0",
+    "moment": "^2.30.1",
+    "path": "^0.12.7"
+  }
 }
